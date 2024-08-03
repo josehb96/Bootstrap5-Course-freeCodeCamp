@@ -24,6 +24,22 @@ h1 {
     font-family: "Rubik Dirt", system-ui;
 }
 
+.dark-section {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.title-section {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', system-ui;
+}
+
+.text-section {
+    font-size: 1.2rem;
+    padding: 0px 10px;
+}
+
 /* Hero Section */
 
 .hero {
@@ -34,6 +50,17 @@ h1 {
 
 .hero-principal {
     padding: 3rem;
+}
+
+/* About me */
+.about-me {
+    height: 500px;
+    padding: 10px;
+}
+
+.about-me .contenedor {
+    max-width: 600px;
+    text-align: center;
 }
 
 .hero-imagen-desarrollador {
