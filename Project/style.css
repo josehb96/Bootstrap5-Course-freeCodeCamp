@@ -29,6 +29,11 @@ h1 {
     background-color: #1b1b32;
 }
 
+.clear-section {
+    color: black;
+    background-color: white;
+}
+
 .title-section {
     font-size: 2rem;
     padding: 15px 0;
@@ -77,6 +82,59 @@ h1 {
 .hero-principal h2 {
     font-size: 1.5rem;
     color: #615151;
+}
+
+/* Experience */
+
+.experience {
+    padding: 40px 40px 60px 40px;
+}
+
+.experience i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.experience .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+}
+
+.experience .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.badges-container {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
 }
 
 /* Adaptable (Responsive) */
