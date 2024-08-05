@@ -40,9 +40,27 @@ h1 {
     font-family: 'Rubik Dirt', system-ui;
 }
 
+.description-section {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+}
+
 .text-section {
     font-size: 1.2rem;
     padding: 0px 10px;
+}
+
+.dark-text {
+    color: black;
+}
+
+.white-text {
+    color: white;
 }
 
 /* Hero Section */
@@ -137,7 +155,84 @@ h1 {
     margin: 5px;
 }
 
+/* Proyectos */
+
+.recent-projects {
+    padding: 40px;
+}
+
+.recent-projects img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.projects-container {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    -webkit-transform: translate(-50%, -50%) ;
+    -moz-transform: translate(-50%, -50%) ;
+    -ms-transform: translate(-50%, -50%) ;
+    -o-transform: translate(-50%, -50%) ;
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.project {
+    position: relative;
+}
+
+.project:hover img {
+    opacity: 0.2;
+}
+
+.project:hover .overlay {
+    opacity: 1;
+}
+
+/* .overlay .icons-container {
+    display: flex;
+} */
+
 /* Adaptable (Responsive) */
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
